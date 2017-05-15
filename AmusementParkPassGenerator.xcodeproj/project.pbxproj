@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36692BC91EC97F190076B486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36692BC81EC97F190076B486 /* AppDelegate.swift */; };
+		36692BCB1EC97F190076B486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36692BCA1EC97F190076B486 /* ViewController.swift */; };
+		36692BCE1EC97F190076B486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36692BCC1EC97F190076B486 /* Main.storyboard */; };
+		36692BD11EC97F190076B486 /* AmusementParkPassGenerator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36692BCF1EC97F190076B486 /* AmusementParkPassGenerator.xcdatamodeld */; };
+		36692BD31EC97F190076B486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36692BD21EC97F190076B486 /* Assets.xcassets */; };
+		36692BD61EC97F190076B486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36692BD41EC97F190076B486 /* LaunchScreen.storyboard */; };
+		36692BE11EC97F190076B486 /* AmusementParkPassGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36692BE01EC97F190076B486 /* AmusementParkPassGeneratorTests.swift */; };
+		36692BEC1EC97F1A0076B486 /* AmusementParkPassGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36692BEB1EC97F1A0076B486 /* AmusementParkPassGeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36692BDD1EC97F190076B486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36692BBD1EC97F190076B486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36692BC41EC97F190076B486;
+			remoteInfo = AmusementParkPassGenerator;
+		};
+		36692BE81EC97F1A0076B486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36692BBD1EC97F190076B486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36692BC41EC97F190076B486;
+			remoteInfo = AmusementParkPassGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36692BC51EC97F190076B486 /* AmusementParkPassGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmusementParkPassGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36692BC81EC97F190076B486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36692BCA1EC97F190076B486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36692BCD1EC97F190076B486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36692BD01EC97F190076B486 /* AmusementParkPassGenerator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmusementParkPassGenerator.xcdatamodel; sourceTree = "<group>"; };
+		36692BD21EC97F190076B486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36692BD51EC97F190076B486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36692BD71EC97F190076B486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36692BDC1EC97F190076B486 /* AmusementParkPassGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmusementParkPassGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36692BE01EC97F190076B486 /* AmusementParkPassGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmusementParkPassGeneratorTests.swift; sourceTree = "<group>"; };
+		36692BE21EC97F190076B486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36692BE71EC97F1A0076B486 /* AmusementParkPassGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmusementParkPassGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36692BEB1EC97F1A0076B486 /* AmusementParkPassGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmusementParkPassGeneratorUITests.swift; sourceTree = "<group>"; };
+		36692BED1EC97F1A0076B486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36692BC21EC97F190076B486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36692BD91EC97F190076B486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36692BE41EC97F1A0076B486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36692BBC1EC97F190076B486 = {
+			isa = PBXGroup;
+			children = (
+				36692BC71EC97F190076B486 /* AmusementParkPassGenerator */,
+				36692BDF1EC97F190076B486 /* AmusementParkPassGeneratorTests */,
+				36692BEA1EC97F1A0076B486 /* AmusementParkPassGeneratorUITests */,
+				36692BC61EC97F190076B486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36692BC61EC97F190076B486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36692BC51EC97F190076B486 /* AmusementParkPassGenerator.app */,
+				36692BDC1EC97F190076B486 /* AmusementParkPassGeneratorTests.xctest */,
+				36692BE71EC97F1A0076B486 /* AmusementParkPassGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36692BC71EC97F190076B486 /* AmusementParkPassGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				36692BC81EC97F190076B486 /* AppDelegate.swift */,
+				36692BCA1EC97F190076B486 /* ViewController.swift */,
+				36692BCC1EC97F190076B486 /* Main.storyboard */,
+				36692BD21EC97F190076B486 /* Assets.xcassets */,
+				36692BD41EC97F190076B486 /* LaunchScreen.storyboard */,
+				36692BD71EC97F190076B486 /* Info.plist */,
+				36692BCF1EC97F190076B486 /* AmusementParkPassGenerator.xcdatamodeld */,
+			);
+			path = AmusementParkPassGenerator;
+			sourceTree = "<group>";
+		};
+		36692BDF1EC97F190076B486 /* AmusementParkPassGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				36692BE01EC97F190076B486 /* AmusementParkPassGeneratorTests.swift */,
+				36692BE21EC97F190076B486 /* Info.plist */,
+			);
+			path = AmusementParkPassGeneratorTests;
+			sourceTree = "<group>";
+		};
+		36692BEA1EC97F1A0076B486 /* AmusementParkPassGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36692BEB1EC97F1A0076B486 /* AmusementParkPassGeneratorUITests.swift */,
+				36692BED1EC97F1A0076B486 /* Info.plist */,
+			);
+			path = AmusementParkPassGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36692BC41EC97F190076B486 /* AmusementParkPassGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36692BF01EC97F1A0076B486 /* Build configuration list for PBXNativeTarget "AmusementParkPassGenerator" */;
+			buildPhases = (
+				36692BC11EC97F190076B486 /* Sources */,
+				36692BC21EC97F190076B486 /* Frameworks */,
+				36692BC31EC97F190076B486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmusementParkPassGenerator;
+			productName = AmusementParkPassGenerator;
+			productReference = 36692BC51EC97F190076B486 /* AmusementParkPassGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36692BDB1EC97F190076B486 /* AmusementParkPassGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36692BF31EC97F1A0076B486 /* Build configuration list for PBXNativeTarget "AmusementParkPassGeneratorTests" */;
+			buildPhases = (
+				36692BD81EC97F190076B486 /* Sources */,
+				36692BD91EC97F190076B486 /* Frameworks */,
+				36692BDA1EC97F190076B486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36692BDE1EC97F190076B486 /* PBXTargetDependency */,
+			);
+			name = AmusementParkPassGeneratorTests;
+			productName = AmusementParkPassGeneratorTests;
+			productReference = 36692BDC1EC97F190076B486 /* AmusementParkPassGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36692BE61EC97F1A0076B486 /* AmusementParkPassGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36692BF61EC97F1A0076B486 /* Build configuration list for PBXNativeTarget "AmusementParkPassGeneratorUITests" */;
+			buildPhases = (
+				36692BE31EC97F1A0076B486 /* Sources */,
+				36692BE41EC97F1A0076B486 /* Frameworks */,
+				36692BE51EC97F1A0076B486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36692BE91EC97F1A0076B486 /* PBXTargetDependency */,
+			);
+			name = AmusementParkPassGeneratorUITests;
+			productName = AmusementParkPassGeneratorUITests;
+			productReference = 36692BE71EC97F1A0076B486 /* AmusementParkPassGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36692BBD1EC97F190076B486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "William Vivas";
+				TargetAttributes = {
+					36692BC41EC97F190076B486 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7LL647C5YT;
+						ProvisioningStyle = Automatic;
+					};
+					36692BDB1EC97F190076B486 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7LL647C5YT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36692BC41EC97F190076B486;
+					};
+					36692BE61EC97F1A0076B486 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7LL647C5YT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36692BC41EC97F190076B486;
+					};
+				};
+			};
+			buildConfigurationList = 36692BC01EC97F190076B486 /* Build configuration list for PBXProject "AmusementParkPassGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36692BBC1EC97F190076B486;
+			productRefGroup = 36692BC61EC97F190076B486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36692BC41EC97F190076B486 /* AmusementParkPassGenerator */,
+				36692BDB1EC97F190076B486 /* AmusementParkPassGeneratorTests */,
+				36692BE61EC97F1A0076B486 /* AmusementParkPassGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36692BC31EC97F190076B486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36692BD61EC97F190076B486 /* LaunchScreen.storyboard in Resources */,
+				36692BD31EC97F190076B486 /* Assets.xcassets in Resources */,
+				36692BCE1EC97F190076B486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36692BDA1EC97F190076B486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36692BE51EC97F1A0076B486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36692BC11EC97F190076B486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36692BD11EC97F190076B486 /* AmusementParkPassGenerator.xcdatamodeld in Sources */,
+				36692BCB1EC97F190076B486 /* ViewController.swift in Sources */,
+				36692BC91EC97F190076B486 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36692BD81EC97F190076B486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36692BE11EC97F190076B486 /* AmusementParkPassGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36692BE31EC97F1A0076B486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36692BEC1EC97F1A0076B486 /* AmusementParkPassGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36692BDE1EC97F190076B486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36692BC41EC97F190076B486 /* AmusementParkPassGenerator */;
+			targetProxy = 36692BDD1EC97F190076B486 /* PBXContainerItemProxy */;
+		};
+		36692BE91EC97F1A0076B486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36692BC41EC97F190076B486 /* AmusementParkPassGenerator */;
+			targetProxy = 36692BE81EC97F1A0076B486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36692BCC1EC97F190076B486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36692BCD1EC97F190076B486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36692BD41EC97F190076B486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36692BD51EC97F190076B486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36692BEE1EC97F1A0076B486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36692BEF1EC97F1A0076B486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36692BF11EC97F1A0076B486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LL647C5YT;
+				INFOPLIST_FILE = AmusementParkPassGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = williamswiftiOS.AmusementParkPassGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		36692BF21EC97F1A0076B486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LL647C5YT;
+				INFOPLIST_FILE = AmusementParkPassGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = williamswiftiOS.AmusementParkPassGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		36692BF41EC97F1A0076B486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7LL647C5YT;
+				INFOPLIST_FILE = AmusementParkPassGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = williamswiftiOS.AmusementParkPassGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmusementParkPassGenerator.app/AmusementParkPassGenerator";
+			};
+			name = Debug;
+		};
+		36692BF51EC97F1A0076B486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7LL647C5YT;
+				INFOPLIST_FILE = AmusementParkPassGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = williamswiftiOS.AmusementParkPassGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmusementParkPassGenerator.app/AmusementParkPassGenerator";
+			};
+			name = Release;
+		};
+		36692BF71EC97F1A0076B486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7LL647C5YT;
+				INFOPLIST_FILE = AmusementParkPassGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = williamswiftiOS.AmusementParkPassGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AmusementParkPassGenerator;
+			};
+			name = Debug;
+		};
+		36692BF81EC97F1A0076B486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7LL647C5YT;
+				INFOPLIST_FILE = AmusementParkPassGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = williamswiftiOS.AmusementParkPassGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AmusementParkPassGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36692BC01EC97F190076B486 /* Build configuration list for PBXProject "AmusementParkPassGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36692BEE1EC97F1A0076B486 /* Debug */,
+				36692BEF1EC97F1A0076B486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36692BF01EC97F1A0076B486 /* Build configuration list for PBXNativeTarget "AmusementParkPassGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36692BF11EC97F1A0076B486 /* Debug */,
+				36692BF21EC97F1A0076B486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36692BF31EC97F1A0076B486 /* Build configuration list for PBXNativeTarget "AmusementParkPassGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36692BF41EC97F1A0076B486 /* Debug */,
+				36692BF51EC97F1A0076B486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36692BF61EC97F1A0076B486 /* Build configuration list for PBXNativeTarget "AmusementParkPassGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36692BF71EC97F1A0076B486 /* Debug */,
+				36692BF81EC97F1A0076B486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36692BCF1EC97F190076B486 /* AmusementParkPassGenerator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36692BD01EC97F190076B486 /* AmusementParkPassGenerator.xcdatamodel */,
+			);
+			currentVersion = 36692BD01EC97F190076B486 /* AmusementParkPassGenerator.xcdatamodel */;
+			path = AmusementParkPassGenerator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36692BBD1EC97F190076B486 /* Project object */;
+}
