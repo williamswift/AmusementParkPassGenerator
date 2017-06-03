@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func scan(entrant: EntrantType, accessType: AccessType) {
+        PassScanner.scan(entrant: entrant, accessType: accessType)
+    }
 }
 
