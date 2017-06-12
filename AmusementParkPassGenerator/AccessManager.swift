@@ -68,6 +68,8 @@ struct FullAddress {
     }
 }
 
+//FullAddress(streetAddress: "190 river road", city: "LA", state: "CA", zipCode: 66778)
+
 //MARK: area access protocols 
 
 protocol AreaAccessible {
@@ -143,23 +145,26 @@ protocol EmployeeType: EntrantType, Nameable, Addressable {
 
 protocol FullTimeEmployeeType: EmployeeType, FoodDiscountAccessible, MerchandiseDiscountAccessible, AllRidesAcesssible {
 }
+
 // MARK: Guest types
 
 struct ClassicGuest: GuestType {
 }
 
 
-struct VipGuest: GuestType, SkipAllRideLinesAcessible, FoodDiscountAccessible, MerchandiseDiscountAccessible {
+struct VIPGuest: GuestType, SkipAllRideLinesAcessible, FoodDiscountAccessible, MerchandiseDiscountAccessible {
     let foodDiscountPercentage: Double = 0.10
     let MerchandiseDiscountPercentage: Double = 0.20
 
 }
 
+
+
 struct FreeChildGuest: GuestType, BirthdayWishable {
    
 
     let date = Date()
-    var calendar = Calendar.current
+    let calendar = Calendar.current
     
     
     var childsBirthMonth : Int
@@ -238,13 +243,13 @@ class FullTimeEmployee: FullTimeEmployeeType {
 
 }
 
-class HourlyEmployeeeFoodServices: FullTimeEmployee, KitchenAreaAccessible {
+class HourlyEmployeeFoodServices: FullTimeEmployee, KitchenAreaAccessible {
 }
 
 class HourlyEmployeeRideServices: FullTimeEmployee, KitchenAreaAccessible {
 }
 
-class HourlyEmployeeMaintenence: FullTimeEmployee, KitchenAreaAccessible, RideControlAreaAccessible, MaintenanceAreaAccessible {
+class HourlyEmployeeMaintenance: FullTimeEmployee, KitchenAreaAccessible, RideControlAreaAccessible, MaintenanceAreaAccessible {
 }
 
 class Manager: FullTimeEmployee, KitchenAreaAccessible, RideControlAreaAccessible, MaintenanceAreaAccessible, OfficeAreaAccessible {

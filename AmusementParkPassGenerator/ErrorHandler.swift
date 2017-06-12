@@ -21,3 +21,9 @@ enum InputError : Error {
     case childIsOlderThanFive
     case notGuestsBirthday
 }
+
+enum BirthdayError: Error {
+    case InvalidBirthday
+    case TooOldForDiscount
+
+}

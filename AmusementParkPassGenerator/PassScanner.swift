@@ -31,20 +31,12 @@ enum Access {
     }
 
 
+
 class PassScanner {
     
    
-    
-    static func scan(entrant: EntrantType, accessType: AccessType) {
+     static func scan(entrant: EntrantType, accessType: AccessType) -> Bool {
         
-        if let birthdayGuest = entrant as? BirthdayWishable {
-            if Date.isTodayBirthday(eventDate: Date()) {
-                print("Happy Birthday")
-            }
-            else {
-                print("not guests birthday")
-            }
-            }
         
         var accessGranted: Bool = false
         
@@ -85,6 +77,14 @@ class PassScanner {
             print("Access to \(accessType) is denied")
             soundEffectsPlayer.playSound(for: .Denied)
         }
-    }
+        return accessGranted
 }
+}
+
+
+
+
+
+
+
 
